@@ -1,3 +1,9 @@
+// SVELTEKIT-BACKEND-PRESERVED: moved out of svelte/ during the cljs migration; not wired.
+// Original path: etzhayyim-wasm-fax-actor-f4x5end1/svelte/src/routes/xrpc/[...path]/+server.ts
+// A SvelteKit server route (POST/OPTIONS handlers proxying XRPC calls to the MCP router).
+// It imports SvelteKit-only symbols ('@sveltejs/kit', './$types') and will not run as-is —
+// reviving it as a plain Worker handler (or wiring it into src/app.ts) is an undecided
+// product question, left for a follow-up, not settled by this migration.
 import { json, type RequestEvent } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
