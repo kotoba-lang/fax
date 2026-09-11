@@ -63,7 +63,7 @@
    :page/routes []
    :page/vars []
    :page/xrpc? true
-   :page/source-path "etzhayyim-wasm-fax-actor-f4x5end1/cljs/src/etzhayyim/wasm/fax/app.cljs"})
+   :page/source-path "etzhayyim-wasm-fax-actor-f4x5end1/cljs/src/etzhayyim/wasm/fax/app.cljk"})
 
 (rf/reg-event-db
  :initialize-db
